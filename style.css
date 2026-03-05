@@ -1,0 +1,149 @@
+body {
+    font-family: "Inter", Arial, sans-serif;
+    background: #F5F7FA;
+    color: #1F2937;
+}
+
+header {
+    background: #ffffff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E5E7EB;
+    position: sticky;
+    top: 0;
+}
+
+header ul.nav a.active {
+    color: #2563EB;
+    border-bottom: 2px solid #2563EB;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+header h3 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+header ul.nav {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header a {
+    font-size: 15px;
+    color: #374151;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav {
+    display: flex;
+    margin-right: 15px;
+}
+
+.introSection {
+    padding: 100px 20px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.introTextSection {
+    font-size: 32px;
+    line-height: 1.4;
+}
+
+.projectSection {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.experienceSection {
+    width: 75%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.experienceSection p {
+    font-size: 15px;
+    color: #374151;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footerSection {
+    background: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    color: #4B5563;
+}
+
+.footerSection a {
+    color: #2563EB;
+    text-decoration: none;
+    text-align: center;
+}
+
+.contactForm {
+    width: 50%;
+    margin: 60px auto;
+}
+
+.contactForm label {
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    color: #374151;
+    margin-bottom: 6px;
+    margin-top: 20px;
+}
+
+.contactForm input,
+.contactForm textarea {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #E5E7EB;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #1F2937;
+    background: #ffffff;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.contactForm textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.contactForm button {
+    margin-top: 20px;
+    padding: 10px 24px;
+    background: #1F2937;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.textCenter {
+    text-align: center; 
+    margin-top: 60px;
+}
